@@ -1,0 +1,12 @@
+/Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-debug/CMakeFiles/TME1.dir
+/Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-debug/CMakeFiles/TME2.dir
+/Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-debug/CMakeFiles/TME3.dir
+/Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-debug/CMakeFiles/TME6.dir
+/Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-debug/CMakeFiles/TME4.dir
+/Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-debug/CMakeFiles/TME5.dir
+/Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-debug/CMakeFiles/TME8.dir
+/Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-debug/CMakeFiles/Ftp_client.dir
+/Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-debug/CMakeFiles/Ftp_server.dir
+/Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-debug/CMakeFiles/pipe.dir
+/Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-debug/CMakeFiles/rebuild_cache.dir
