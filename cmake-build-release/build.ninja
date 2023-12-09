@@ -493,6 +493,70 @@ build pipe: CXX_EXECUTABLE_LINKER__pipe_Release CMakeFiles/pipe.dir/TME7/src/pip
   TARGET_FILE = pipe
   TARGET_PDB = pipe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target chat_client
+
+
+#############################################
+# Order-only phony target for chat_client
+
+build cmake_object_order_depends_target_chat_client: phony || CMakeFiles/chat_client.dir
+
+build CMakeFiles/chat_client.dir/TME7/src/chat_client.cpp.o: CXX_COMPILER__chat_client_unscanned_Release /Users/zyu/Desktop/Projet/PSCR-TME/TME7/src/chat_client.cpp || cmake_object_order_depends_target_chat_client
+  DEP_FILE = CMakeFiles/chat_client.dir/TME7/src/chat_client.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/zyu/Desktop/Projet/PSCR-TME/nov2019/exam/exo1/src -I/Users/zyu/Desktop/Projet/PSCR-TME/nov2019/exam/exo2/src -I/Users/zyu/Desktop/Projet/PSCR-TME/nov2019/exam/exo3/src -I/Users/zyu/Desktop/Projet/PSCR-TME/TME1/exo1/src -I/Users/zyu/Desktop/Projet/PSCR-TME/TME4/src -I/Users/zyu/Desktop/Projet/PSCR-TME/TME5/src -I/Users/zyu/Desktop/Projet/PSCR-TME/TME6/src -I/Users/zyu/Desktop/Projet/PSCR-TME/TME7/src -I/Users/zyu/Desktop/Projet/PSCR-TME/TME8/src -I/Users/zyu/Desktop/Projet/PSCR-TME/TME9/src
+  OBJECT_DIR = CMakeFiles/chat_client.dir
+  OBJECT_FILE_DIR = CMakeFiles/chat_client.dir/TME7/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chat_client
+
+
+#############################################
+# Link the executable chat_client
+
+build chat_client: CXX_EXECUTABLE_LINKER__chat_client_Release CMakeFiles/chat_client.dir/TME7/src/chat_client.cpp.o
+  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/chat_client.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chat_client
+  TARGET_PDB = chat_client.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chat_server
+
+
+#############################################
+# Order-only phony target for chat_server
+
+build cmake_object_order_depends_target_chat_server: phony || CMakeFiles/chat_server.dir
+
+build CMakeFiles/chat_server.dir/TME7/src/chat_server.cpp.o: CXX_COMPILER__chat_server_unscanned_Release /Users/zyu/Desktop/Projet/PSCR-TME/TME7/src/chat_server.cpp || cmake_object_order_depends_target_chat_server
+  DEP_FILE = CMakeFiles/chat_server.dir/TME7/src/chat_server.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/zyu/Desktop/Projet/PSCR-TME/nov2019/exam/exo1/src -I/Users/zyu/Desktop/Projet/PSCR-TME/nov2019/exam/exo2/src -I/Users/zyu/Desktop/Projet/PSCR-TME/nov2019/exam/exo3/src -I/Users/zyu/Desktop/Projet/PSCR-TME/TME1/exo1/src -I/Users/zyu/Desktop/Projet/PSCR-TME/TME4/src -I/Users/zyu/Desktop/Projet/PSCR-TME/TME5/src -I/Users/zyu/Desktop/Projet/PSCR-TME/TME6/src -I/Users/zyu/Desktop/Projet/PSCR-TME/TME7/src -I/Users/zyu/Desktop/Projet/PSCR-TME/TME8/src -I/Users/zyu/Desktop/Projet/PSCR-TME/TME9/src
+  OBJECT_DIR = CMakeFiles/chat_server.dir
+  OBJECT_FILE_DIR = CMakeFiles/chat_server.dir/TME7/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chat_server
+
+
+#############################################
+# Link the executable chat_server
+
+build chat_server: CXX_EXECUTABLE_LINKER__chat_server_Release CMakeFiles/chat_server.dir/TME7/src/chat_server.cpp.o
+  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/chat_server.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chat_server
+  TARGET_PDB = chat_server.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -527,7 +591,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-release
 
-build all: phony TME1 TME2 TME3 TME6 TME4 TME5 TME8 Ftp_client Ftp_server pipe
+build all: phony TME1 TME2 TME3 TME6 TME4 TME5 TME8 Ftp_client Ftp_server pipe chat_client chat_server
 
 # =============================================================================
 # Built-in targets

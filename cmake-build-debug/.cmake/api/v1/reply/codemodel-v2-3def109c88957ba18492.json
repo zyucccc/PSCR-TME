@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PSCR_TME",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Ftp_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ftp_client-Debug-fb5d30db3894dadbaa46.json",
+					"name" : "Ftp_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ftp_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ftp_server-Debug-1a67e46786f7d04dff59.json",
+					"name" : "Ftp_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TME1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TME1-Debug-65c2feb9e44526579278.json",
+					"name" : "TME1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TME2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TME2-Debug-d07fbba97770ea9dc09b.json",
+					"name" : "TME2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TME3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TME3-Debug-75ccf1ba3ca29a57f3fa.json",
+					"name" : "TME3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TME4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TME4-Debug-ff0930c028bc1453a741.json",
+					"name" : "TME4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TME5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TME5-Debug-29aaf1117bad55c216ab.json",
+					"name" : "TME5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TME6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TME6-Debug-023274a2af664f0c144f.json",
+					"name" : "TME6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TME8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TME8-Debug-ed6a20faeabe7efb579d.json",
+					"name" : "TME8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chat_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chat_client-Debug-754c2f1ab0dec8cadb66.json",
+					"name" : "chat_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chat_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chat_server-Debug-b6fcdd65f86a60f4a577.json",
+					"name" : "chat_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pipe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pipe-Debug-fb5f1e599eae5317f681.json",
+					"name" : "pipe",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-debug",
+		"source" : "/Users/zyu/Desktop/Projet/PSCR-TME"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

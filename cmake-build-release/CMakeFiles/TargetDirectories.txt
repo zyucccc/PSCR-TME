@@ -8,5 +8,7 @@
 /Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-release/CMakeFiles/Ftp_client.dir
 /Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-release/CMakeFiles/Ftp_server.dir
 /Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-release/CMakeFiles/pipe.dir
+/Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-release/CMakeFiles/chat_client.dir
+/Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-release/CMakeFiles/chat_server.dir
 /Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-release/CMakeFiles/edit_cache.dir
 /Users/zyu/Desktop/Projet/PSCR-TME/cmake-build-release/CMakeFiles/rebuild_cache.dir

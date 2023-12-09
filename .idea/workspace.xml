@@ -32,6 +32,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3c822f9-8a9f-42c3-8ba5-bd8b88a43c81" name="Changes" comment="TME8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +103,11 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.pipe">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PSCR_TME" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
@@ -150,12 +156,24 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="chat_client" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PSCR_TME" TARGET_NAME="chat_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PSCR_TME" RUN_TARGET_NAME="chat_client">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chat_server" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PSCR_TME" TARGET_NAME="chat_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PSCR_TME" RUN_TARGET_NAME="chat_server">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="pipe" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PSCR_TME" TARGET_NAME="pipe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PSCR_TME" RUN_TARGET_NAME="pipe">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.chat_client" />
+      <item itemvalue="CMake Application.chat_server" />
       <item itemvalue="CMake Application.Ftp_client" />
       <item itemvalue="CMake Application.Ftp_server" />
       <item itemvalue="CMake Application.pipe" />
@@ -193,7 +211,8 @@
       <workItem from="1700507012069" duration="610000" />
       <workItem from="1700670650770" duration="239930000" />
       <workItem from="1701875028811" duration="36345000" />
-      <workItem from="1702156038663" duration="1000" />
+      <workItem from="1702156038663" duration="108000" />
+      <workItem from="1702158911502" duration="149000" />
     </task>
     <task id="LOCAL-00001" summary="TME5-image">
       <option name="closed" value="true" />
@@ -283,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702155812993</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="TME8">
+      <option name="closed" value="true" />
+      <created>1702156047996</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702156047996</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -89,3 +89,7 @@ add_executable(Ftp_server
         TME8/src/TCPServer.h
 )
 add_executable(pipe TME7/src/pipe.cpp)
+add_executable(chat_client TME7/src/chat_client.cpp
+        TME7/src/chat_common.h)
+add_executable(chat_server TME7/src/chat_server.cpp
+        TME7/src/chat_common.h)
